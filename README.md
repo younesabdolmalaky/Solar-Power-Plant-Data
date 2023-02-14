@@ -27,5 +27,5 @@ Convert categorical variables (season and time of day) into numerical values usi
 Drop unnecessary columns (date and datetime)
 #### Model Training
 The data is split into training and testing sets with 80% for training and 20% for testing. The CatBoost Regressor is then trained on the training data using the mean absolute error as the evaluation metric and 20000 iterations.
-####Evaluation
+#### Evaluation
 The performance of the model is evaluated on the testing data using the mean absolute error, mean squared error and R2 score.
